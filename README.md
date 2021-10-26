@@ -1,4 +1,5 @@
-# Hojas de estilo (I)
+# Hojas de estilo (I) (SOLUCIONADO En la rama "solution")
+
 
 **1. Analiza el código del fichero especifidad-selector.html y, sin previsualizarlo en el navegador, trata de averiguar mentalmente qué estilos se aplicarán.**
 
@@ -20,4 +21,3 @@ span .primero{}
 
 **4. Refactoriza el código del archvivo css_repetido.html de modo que no aparezca código repetido.**
 
-**SOLUCIONADO**: En la rama "solution".
