@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Selectores</title>
+    <style>
+      #wrapper {
+        border: 1px solid black; 
+      }
+
+      h1 {
+        color: blue;
+      }
+
+      img {
+        border: 1px solid blue;
+      }
+
+      nav.menu {
+        border: 1px solid green;
+        padding: 20px;
+      }
+
+      main span.negrita {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      footer > p {
+        color: hotpink;
+      }
+
+      a {
+        text-decoration-color: coral;
+        color:blueviolet;
+        outline: none;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="wrapper"> <!-- *1 -->
+      <header>
+        <h1>Selectores en CSS</h1> <!-- *2 -->
+        <img src="" alt="hola"/> <!-- *3 -->
+        <nav class="menu"></nav> <!-- *4 -->
+      </header>
+      <main>
+        <p>Proin eget tortor risus. Vivamus magna justo, lacinia eget 
+          <span class="negrita">consectetur</span> <!-- *5 -->
+           sed, convallis at tellus.</p>
+      </main>
+      <footer>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <!-- *6 -->
+      </footer>
+      <a class="ancla" href="#wrapper">Subir</a> <!-- *7 -->
+    </div>
+  </body>
+</html>
