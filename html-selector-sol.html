@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .primero {
+      color:blue
+    }
+    
+    p.primero {
+      color:blueviolet;
+    }
+
+    section.primero {
+      color:chartreuse;
+    }
+
+    #paco {
+      color: coral;
+    }
+
+    p#segundo {
+      color: red;
+    }
+
+    .primero span {
+      color: pink;
+    }
+
+    .primero > span {
+      color:powderblue;
+    }
+    
+    span .primero {
+      color:royalblue;
+    }
+
+    .primero.parte {
+      color:orange;
+    }
+  </style>
+</head>
+<body>
+  <h1>Selecotres</h1>
+  <h2 class="primero">Esto es una cabecera con clase</h2>
+  <p class="primero">Este párrafo se <span>pinta</span> de color blueviolet.</p>
+  <p>Este párrafo no tiene estilos.</p>
+  <section class="primero">
+    <p>Esto es un párrafo dentro de un section donde se nombra a <span>Paco</span> y se pinta de <span id="paco">coral</span>.</p>
+  </section>
+  <p>Aquí tenemos otro párrafo con un <span>span que contiene <i class="primero">elementos anidados con clase primero</i></span></p>
+  <p class="primero parte">Por otro lado, vamos a pintar un párrafo de naranja</p>
+</body>
+</html>
