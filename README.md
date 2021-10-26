@@ -1,4 +1,4 @@
-# Hojas de estilo (I) (SOLUCIONADO En la rama "solution")
+# Hojas de estilo I - Selectores CSS (SOLUCIONADO En la rama "solution")
 
 
 **1. Analiza el código del fichero especifidad-selector.html y, sin previsualizarlo en el navegador, trata de averiguar mentalmente qué estilos se aplicarán.**
